@@ -1,0 +1,4 @@
+image:
+  repository: akraminezarene/taskflow
+  tag: "1"
+host: taskflow.example.com
