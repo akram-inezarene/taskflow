@@ -6,7 +6,7 @@ client = TestClient(app)
 
 
 def test_health():
-    assert client.get("/api/health").json() == {"status": "ko"}
+    assert client.get("/api/health").json() == {"status": "ok"}
 
 
 def test_add_task():
